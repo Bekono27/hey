@@ -1,0 +1,133 @@
+/* Resetting some default styles */
+
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #008cba;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Container styles */
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(10, 79, 158);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styles */
+  
+  header {
+    background-color: #008cba;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  nav {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Welcome, Menu, Order, Cart section styles */
+  
+  section {
+    padding: 20px 0;
+  }
+  
+  .welcome h2, .menu h2, .order h2, .cart h2 {
+    color: #333;
+  }
+  
+  /* Footer styles */
+  
+  footer {
+    background-color: #008cba;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Button styles */
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #005f6b;
+  }
+  
+  /* Form styles */
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  form button:hover {
+    background-color: #005f6b;
+  }
+  
